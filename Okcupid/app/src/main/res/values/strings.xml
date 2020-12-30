@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">okCupid</string>
+    <string name="lower_string">By Continuing, you agree to our Terms. Learn how we process your data in out Privacy Policy
+    and Cookies Policy</string>
 </resources>

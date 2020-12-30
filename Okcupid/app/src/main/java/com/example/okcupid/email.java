@@ -7,21 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private Button mBtnjoin;
-    private Button mBtnsignin;
-
+public class email extends AppCompatActivity {
+    private Button mBtnnext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        mBtnjoin = findViewById(R.id.btnjoin);
-        mBtnsignin = findViewById(R.id.btnsignin);
-        mBtnjoin.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_email);
+        mBtnnext = findViewById(R.id.btnnext);
+        mBtnnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,email.class);
+                Intent intent = new Intent(email.this,password.class);
                 startActivity(intent);
             }
         });

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OkCupid">
-        <activity android:name=".password"></activity>
+        <activity android:name=".About_you"></activity>
+        <activity android:name=".Set_up" />
+        <activity android:name=".password" />
         <activity android:name=".email" />
         <activity android:name=".MainActivity">
             <intent-filter>

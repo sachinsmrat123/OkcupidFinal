@@ -7,17 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class password extends AppCompatActivity {
-    private  Button  mbtbSingUp;
+public class Set_up extends AppCompatActivity {
+    private Button mbtnNext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_password);
-       mbtbSingUp= findViewById(R.id.btnsignup);
-        mbtbSingUp.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_set_up);
+        mbtnNext= findViewById(R.id.btnNext);
+
+        mbtnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(password.this,Set_up.class);
+                Intent intent = new Intent(Set_up.this,About_you.class);
                 startActivity(intent);
             }
         });

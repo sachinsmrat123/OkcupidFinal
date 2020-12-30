@@ -2,4 +2,19 @@
     <string name="app_name">okCupid</string>
     <string name="lower_string">By Continuing, you agree to our Terms. Learn how we process your data in out Privacy Policy
     and Cookies Policy</string>
+    <string name="lets">Lets start with the basics</string>
+    <string name="set_up">Set up your profile to meet new </string>
+    <string name="people">people.</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_about_you">About_you</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="about_you">About you</string>
+    <string name="first_name">First name</string>
+    <string name="This">This info be visible to others</string>
 </resources>

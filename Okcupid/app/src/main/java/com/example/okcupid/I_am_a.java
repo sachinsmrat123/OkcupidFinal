@@ -32,12 +32,10 @@ public class I_am_a extends AppCompatActivity {
     }
     public void MoreOptions(View v) {
         ScrollView txtclose;
-        ScrollView tvView;
         TextView tvMoreOptions;
         mGender.setContentView(R.layout.gender);
         txtclose = (ScrollView) mGender.findViewById(R.id.tvScrollView);
         tvMoreOptions = (TextView) mGender.findViewById(R.id.tvMore);
-        tvView = (ScrollView) mGender.findViewById(R.id.tvScrollV);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

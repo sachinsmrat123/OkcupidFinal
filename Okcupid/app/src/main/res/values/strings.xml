@@ -150,6 +150,7 @@
     </string-array>
 
     <string name="appname">Spinner</string>
+    <string name="transgender">Transgender</string>
     <string-array name="numbers">
         <item>18</item>
         <item>19</item>

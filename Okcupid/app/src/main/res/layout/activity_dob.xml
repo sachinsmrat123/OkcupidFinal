@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/gray"
     android:layout_height="match_parent"
     tools:context=".Dob">
     <ImageView
@@ -32,12 +33,12 @@
         android:textColor="@color/black"
         android:textSize="@dimen/sp_28" />
 
-        <Spinner
-            android:id="@+id/spMonth"
-            android:layout_width="wrap_content"
-            android:layout_marginStart="@dimen/dp_25"
-            android:layout_centerVertical="true"
-            android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/spMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_25" />
         <Spinner
             android:id="@+id/spDay"
             android:layout_width="wrap_content"

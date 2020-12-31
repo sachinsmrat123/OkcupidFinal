@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,7 +7,11 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_above="@id/btnNixt8"
+    android:layout_height="match_parent">
     <TextView
         android:id="@+id/tvLets"
         android:layout_width="wrap_content"
@@ -40,10 +44,12 @@
         android:layout_marginTop="100dp"
         android:background="@drawable/pitcher3"
         android:layout_height="240dp"/>
+</LinearLayout>
     <Button
         android:layout_width="350dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/dp_220"
+       android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
         android:text="Next"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_20"
@@ -51,4 +57,4 @@
         android:id="@+id/btnNixt8"
         android:background="@color/blue"
         android:layout_height="wrap_content"/>
-</LinearLayout>
+</RelativeLayout>

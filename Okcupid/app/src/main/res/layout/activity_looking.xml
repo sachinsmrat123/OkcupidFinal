@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Looking">
+    <TextView
+        android:id="@+id/tvLets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_100"
+        android:fontFamily="@font/basic"
+        android:text="Who are you looking for?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_28"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSetup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLets"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_16"
+        android:text="To see the right people, tell us who you're into."
+        android:textColor="@color/blackgray"
+        android:textSize="@dimen/sp_22" />
+
+    <ImageView
+        android:layout_width="@dimen/dp_260"
+        android:layout_below="@id/tvSetup"
+        android:layout_marginTop="@dimen/dp_120"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pitcher2"
+        android:layout_height="@dimen/dp_260"/>
+    <Button
+        android:id="@+id/btnNext6"
+        android:layout_width="@dimen/dp_350"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_22"
+        android:layout_height="@dimen/dp_65"/>
+
+</RelativeLayout>

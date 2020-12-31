@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dob">
+    <ImageView
+        android:id="@+id/imBack"
+        android:layout_width="@dimen/dp_15"
+        android:layout_height="@dimen/dp_15"
+        android:layout_marginStart="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_15"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_9"
+        android:text="@string/about_you"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_55"
+        android:fontFamily="@font/archivo_black"
+        android:text="When were you norn?"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_28" />
+
+        <Spinner
+            android:id="@+id/spMonth"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/dp_25"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spDay"
+            android:layout_width="wrap_content"
+           android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dp_25"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spYear"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/dp_25"
+           android:layout_below="@id/spMonth"
+            android:layout_marginStart="@dimen/dp_25"
+            android:layout_marginTop="@dimen/dp_25"
+            android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnDob"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="@dimen/dp_33"
+        android:layout_marginStart="@dimen/dp_33"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_25"
+        android:background="@color/blue"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/your_age_will_be_visible_to_others"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_100"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_22"
+        android:textColor="@color/blackgray"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/this_cannot_be_changed_later"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_77"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_22"
+        android:textColor="@color/blackgray"
+        android:layout_height="wrap_content"/>
+    <View
+
+        android:layout_width="@dimen/dp_30"
+        android:background="@drawable/ic_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_85"
+        android:layout_height="@dimen/dp_30"/>
+</RelativeLayout>

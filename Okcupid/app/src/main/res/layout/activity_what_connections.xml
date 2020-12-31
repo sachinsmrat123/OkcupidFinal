@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_height="match_parent"
+    tools:context=".whatConnections">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_keyboard_left_arrow_button" />
+
+    <TextView
+        android:id="@+id/ideal_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Ideal Person"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/whatconnections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ideal_person"
+        android:layout_marginTop="15dp"
+        android:text="What connections are you"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lookingfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whatconnections"
+        android:text="Looking for?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookingfor"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rectangle_email"
+        android:button="@null"
+        android:drawableRight="@drawable/checkbox"
+        android:padding="10dp"
+        android:text="Hookups" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookingfor"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lookingfor"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/rectangle_email"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+            android:padding="10dp"
+            android:text="Hookups"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lookingfor"
+            android:background="@drawable/rectangle_email"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+            android:padding="10dp"
+            android:text="New friends"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lookingfor"
+            android:background="@drawable/rectangle_email"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+            android:padding="10dp"
+            android:text="Short-term dating"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lookingfor"
+            android:background="@drawable/rectangle_email"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox"
+            android:padding="10dp"
+            android:text="Long-term dating"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/hookups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookingfor"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rectangle_email"
+        android:button="@null"
+        android:drawableRight="@drawable/checkbox"
+        android:padding="10dp"
+        android:text="Hookups"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lookingfor"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rectangle_email"
+        android:button="@null"
+        android:drawableRight="@drawable/checkbox"
+        android:padding="10dp"
+        android:text="Hookups"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnnext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="#00008b"
+        android:padding="20dp"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

@@ -7,19 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Looking extends AppCompatActivity {
-private Button Nextbtn6;
+public class whatConnections extends AppCompatActivity {
+    private Button Btnnext2;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_looking);
-        Nextbtn6 = findViewById(R.id.btnNext6);
-        Nextbtn6.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_what_connections);
+
+        Btnnext2 = findViewById(R.id.btnnext2);
+        Btnnext2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Looking.this,whatConnections.class);
+                Intent intent = new Intent(whatConnections.this,Iamlookingfor.class);
                 startActivity(intent);
             }
         });
+
     }
 }

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OkCupid">
-        <activity android:name=".Looking"></activity>
+        <activity android:name=".tellUsAbout"></activity>
+        <activity android:name=".Howold" />
+        <activity android:name=".Iamlookingfor" />
+        <activity android:name=".whatConnections" />
+        <activity android:name=".Looking" />
         <activity android:name=".Live_location" />
         <activity android:name=".Location" />
         <activity android:name=".Dob" />

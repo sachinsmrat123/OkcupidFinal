@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_height="match_parent"
+    tools:context=".Howold">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ic_keyboard_left_arrow_button" />
+
+    <TextView
+        android:id="@+id/tvideal_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Ideal Person"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/tvhowold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvideal_person"
+        android:layout_marginTop="15dp"
+        android:text="How old should they be?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/minage"
+        android:id="@+id/spinner2"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max. age "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/spinner2"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/minage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min. age "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/spinner3"/>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:text="Max. age "
+        android:scrollbarSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnnext21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="#00008b"
+        android:padding="20dp"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+
+</RelativeLayout>

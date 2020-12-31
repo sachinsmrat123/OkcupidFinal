@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+
+    android:layout_height="match_parent"
+    tools:context=".tellUsAbout">
+
+    <TextView
+        android:id="@+id/tvtellus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tell us about yourself"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@id/tvtellus"
+        android:id="@+id/tvsowecan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="So we can find people who like you "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+
+
+    <TextView
+        android:layout_below="@id/tvsowecan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="for you"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnnext208"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="#00008b"
+        android:padding="20dp"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+
+        android:id="@+id/imageView55"
+        android:layout_width="314dp"
+        android:layout_height="379dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/flowerr" />
+
+
+</RelativeLayout>

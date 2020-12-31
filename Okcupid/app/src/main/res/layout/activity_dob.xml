@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp_55"
         android:fontFamily="@font/archivo_black"
-        android:text="When were you norn?"
+        android:text="When were you born?"
         android:textColor="@color/black"
         android:textSize="@dimen/sp_28" />
 

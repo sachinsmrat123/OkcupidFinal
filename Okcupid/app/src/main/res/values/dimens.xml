@@ -27,9 +27,10 @@
     <dimen name="dp_1">1dp</dimen>
     <dimen name="sp_20">20sp</dimen>
     <dimen name="dp_10">10dp</dimen>
-    <dimen name="dp_5">5dp</dimen>
     <dimen name="dp_85">85dp</dimen>
     <dimen name="dp_50">50dp</dimen>
     <dimen name="dp_21">21dp</dimen>
     <dimen name="dp_77">77dp</dimen>
+    <dimen name="dp_220">220dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
 </resources>

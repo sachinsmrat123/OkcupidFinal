@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class addPhotoOfYou extends AppCompatActivity {
- private Button mbtnnext256;
+public class Q3 extends AppCompatActivity {
+    private Button mbtnSubmit2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_photo_of_you);
-        mbtnnext256 = findViewById(R.id.btnnext256);
-        mbtnnext256.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_q3);
+        mbtnSubmit2 =findViewById(R.id.btnSubmi2);
+        mbtnSubmit2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(addPhotoOfYou.this,Introduce.class);
+                Intent intent = new Intent(Q3.this, Q4.class);
                 startActivity(intent);
             }
         });

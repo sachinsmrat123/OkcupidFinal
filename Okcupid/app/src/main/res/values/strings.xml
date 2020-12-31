@@ -151,6 +151,10 @@
 
     <string name="appname">Spinner</string>
     <string name="transgender">Transgender</string>
+    <string name="for_example_how_would_your_best_fiend_describe_you">For example, how would your best fiend describe you?</string>
+    <string name="short_summary">short summary</string>
+    <string name="intoduce_youselfwit_a">Intoduce youselfwit a</string>
+    <string name="this_is_imporntant_to_me">This is imporntant to me     </string>
     <string-array name="numbers">
         <item>18</item>
         <item>19</item>

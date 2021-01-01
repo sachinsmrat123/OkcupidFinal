@@ -55,6 +55,6 @@
         android:textSize="@dimen/sp_20"
         android:textStyle="bold"
         android:id="@+id/btnNixt8"
-        android:background="@color/blue"
+        android:background="@drawable/rectangle"
         android:layout_height="wrap_content"/>
 </RelativeLayout>

@@ -89,7 +89,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/dp_15"
         android:text="@string/next"
-        android:background="@color/blue"
+        android:background="@drawable/rectangle"
         android:textColor="@color/white"
         android:textSize="@dimen/sp_22"
         android:textStyle="bold"

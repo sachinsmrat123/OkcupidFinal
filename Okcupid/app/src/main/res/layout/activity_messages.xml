@@ -142,7 +142,7 @@
                 android:layout_below="@+id/tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi i,m laurelin here "
+                android:text="Hi i,m Stecy here how's was your day today"
                 android:layout_toRightOf="@+id/secondcard"
                 android:layout_marginTop="@dimen/dp_5"
                 />
@@ -183,7 +183,7 @@
                 android:layout_below="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi i,m laurelin here "
+                android:text="Hi i,m Reshma here , what's going on"
                 android:layout_toRightOf="@+id/thirdcard"
                 android:layout_marginTop="@dimen/dp_5"
                 />
@@ -224,7 +224,7 @@
                 android:layout_below="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hi i,m laurelin here "
+                android:text="Hi i,m Anjali here , would yoi like some hangout"
                 android:layout_toRightOf="@+id/fourthcard"
                 android:layout_marginTop="@dimen/dp_5"
                 />

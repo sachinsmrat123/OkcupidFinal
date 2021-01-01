@@ -19,7 +19,7 @@
             style="@style/second_cardview1">
             <ImageView
                 style="@style/Image_view2"
-                android:src="@drawable/girlone"
+                android:src="@drawable/salmankhan"
                 />
         </androidx.cardview.widget.CardView>
     </androidx.cardview.widget.CardView>

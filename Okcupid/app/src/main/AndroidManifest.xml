@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OkCupid">
-        <activity android:name=".My_ideal_person"></activity>
+        <activity android:name=".doubletake"></activity>
+        <activity android:name=".My_ideal_person" />
         <activity android:name=".likesLayout" />
         <activity android:name=".settings" />
         <activity android:name=".profile" />

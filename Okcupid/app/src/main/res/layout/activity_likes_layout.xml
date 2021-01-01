@@ -16,12 +16,14 @@
         android:textColor="@color/white"
         android:textSize="@dimen/sp_22" />
 
-    <Button
+    <TextView
         android:id="@+id/btnlikeshomepage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:textStyle="bold"
+        android:padding="@dimen/dp_10"
+        android:paddingHorizontal="@dimen/dp_20"
         android:layout_margin="@dimen/dp_10"
         android:background="@drawable/pinkrectangle"
         android:drawableStart="@drawable/ic_flash__1_"
@@ -189,7 +191,7 @@
             style="@style/first_cardview">
             <androidx.cardview.widget.CardView
                 style="@style/second_cardview">
-                <ImageButton
+                <ImageView
                     android:id="@+id/btndoubletake"
                     style="@style/Image_view"
                     android:background="@drawable/doubletake"
@@ -203,7 +205,7 @@
             style="@style/first_cardview">
             <androidx.cardview.widget.CardView
                 style="@style/second_cardview">
-                <ImageButton
+                <ImageView
                     android:id="@+id/btnlikes"
                     style="@style/Image_view"
                     android:background="@drawable/likes"
@@ -217,7 +219,7 @@
             style="@style/first_cardview">
             <androidx.cardview.widget.CardView
                 style="@style/second_cardview">
-                <ImageButton
+                <ImageView
                     android:id="@+id/btnmessages"
                     style="@style/Image_view"
                     android:background="@drawable/message"
@@ -230,7 +232,7 @@
             style="@style/first_cardview">
             <androidx.cardview.widget.CardView
                 style="@style/second_cardview">
-                <ImageButton
+                <ImageView
                     android:id="@+id/btnprofile"
                     style="@style/Image_view"
                     android:background="@drawable/profile"
@@ -268,7 +270,7 @@
             android:layout_below="@+id/secondcardbutton"
 
             android:layout_marginTop="0dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginEnd="35dp"
             android:layout_marginRight="46dp"
             android:layout_toLeftOf="@+id/fourthcardbutton"
             android:text="Messages"

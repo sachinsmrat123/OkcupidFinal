@@ -11,6 +11,7 @@ public class HomePage extends AppCompatActivity {
 private ImageButton mbtnMessages;
 private ImageButton mbtnProfile;
 private ImageButton mbtnLikes;
+private ImageButton mbtnDoubleTake;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,14 @@ private ImageButton mbtnLikes;
         mbtnMessages=findViewById(R.id.btnmessages);
         mbtnProfile=findViewById(R.id.btnprofile);
         mbtnLikes=findViewById(R.id.btnlikes);
+        mbtnDoubleTake=findViewById(R.id.btndoubletake);
+        mbtnDoubleTake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HomePage.this,doubletake.class);
+                startActivity(intent);
+            }
+        });
         mbtnLikes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

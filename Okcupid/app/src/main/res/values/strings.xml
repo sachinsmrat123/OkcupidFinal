@@ -155,6 +155,7 @@
     <string name="short_summary">short summary</string>
     <string name="intoduce_youselfwit_a">Intoduce youselfwit a</string>
     <string name="this_is_imporntant_to_me">This is imporntant to me     </string>
+    <string name="background_amp_identity"><![CDATA[BACKGROUND & IDENTITY]]></string>
     <string-array name="numbers">
         <item>18</item>
         <item>19</item>

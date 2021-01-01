@@ -16,6 +16,7 @@ public class email extends AppCompatActivity {
         setContentView(R.layout.activity_email);
         mBtnnext = findViewById(R.id.btnnext);
         mBtnnext.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(email.this,password.class);
@@ -23,4 +24,11 @@ public class email extends AppCompatActivity {
             }
         });
     }
+
+
+
+    public  void previous(View view){
+        startActivity(new Intent(email.this, MainActivity.class));
+    }
+
 }

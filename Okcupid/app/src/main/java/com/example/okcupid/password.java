@@ -22,4 +22,9 @@ public class password extends AppCompatActivity {
             }
         });
     }
+    public  void previous(View view){
+        startActivity(new Intent(password.this, email.class));
+    }
+
+
 }

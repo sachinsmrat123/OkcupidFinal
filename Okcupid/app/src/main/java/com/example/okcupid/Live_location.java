@@ -12,9 +12,10 @@ import android.widget.Spinner;
 import java.text.DateFormatSymbols;
 
 public class Live_location extends AppCompatActivity {
- private Button mbtnNixt5;
+    private Button mbtnNixt5;
     Spinner myCountry, myCity;
     String[] country;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,20 +28,27 @@ public class Live_location extends AppCompatActivity {
         mbtnNixt5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Live_location.this,Looking.class);
+                Intent intent = new Intent(Live_location.this, Looking.class);
                 startActivity(intent);
             }
         });
 
-    }private void  populateSpinnerCountry(){
+    }
+    public  void previous(View view){
+        startActivity(new Intent(Live_location.this, Location.class));
+    }
+
+
+    private void populateSpinnerCountry() {
         ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.spinner_Country));
         cityAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         myCountry.setAdapter(cityAdapter);
     }
 
-    private void  populateSpinnerCity() {
+
+    private void populateSpinnerCity() {
         ArrayAdapter<String> cityAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.spinner_city));
         cityAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-       myCity.setAdapter(cityAdapter);
+        myCity.setAdapter(cityAdapter);
     }
 }

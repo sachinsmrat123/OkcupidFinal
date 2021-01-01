@@ -36,6 +36,9 @@ public class Dob extends AppCompatActivity {
             }
         });
     }
+    public  void previous(View view){
+        startActivity(new Intent(Dob.this, I_am_a.class));
+    }
 
     private void populateSpinnerMonth(){
         months = new DateFormatSymbols().getMonths();

@@ -26,4 +26,5 @@ public class whatConnections extends AppCompatActivity {
         });
 
     }
+
 }

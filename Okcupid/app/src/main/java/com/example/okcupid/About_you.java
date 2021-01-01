@@ -22,4 +22,10 @@ public class About_you extends AppCompatActivity {
             }
         });
     }
+    public  void previous(View view){
+        startActivity(new Intent(About_you.this, Set_up.class));
+    }
+
+
+
 }

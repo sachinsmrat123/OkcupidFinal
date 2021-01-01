@@ -42,4 +42,9 @@ public class Location extends AppCompatActivity {
             }
         });
     }
+
+    public  void previous(View view){
+        startActivity(new Intent(Location.this, Dob.class));
+    }
+
 }

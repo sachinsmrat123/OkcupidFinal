@@ -10,7 +10,10 @@
     tools:context=".email">
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="17dp"
+        android:layout_width="20dp"
+        android:layout_marginStart="@dimen/dp_5"
+        android:padding="3dp"
+        android:onClick="previous"
         android:background="@drawable/ic_keyboard_left_arrow_button"
         android:layout_height="21dp"
         android:layout_marginTop="15dp"/>

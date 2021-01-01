@@ -30,6 +30,11 @@ public class I_am_a extends AppCompatActivity {
         });
 
     }
+
+
+    public  void previous(View view){
+        startActivity(new Intent(I_am_a.this, About_you.class));
+    }
     public void MoreOptions(View v) {
         ScrollView txtclose;
         TextView tvMoreOptions;

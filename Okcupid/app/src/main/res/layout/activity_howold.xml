@@ -41,7 +41,6 @@
         android:textStyle="bold" />
 
     <Spinner
-        android:layout_marginStart="@dimen/dp_25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scrollbarSize="20sp"
@@ -65,7 +64,7 @@
 
     <TextView
         android:id="@+id/minage"
-        android:layout_width="@dimen/dp_100"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Min. age "
         android:textColor="@color/black"

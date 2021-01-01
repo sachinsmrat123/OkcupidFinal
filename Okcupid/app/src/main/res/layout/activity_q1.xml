@@ -49,7 +49,7 @@
             android:padding="10dp"
             android:background="@drawable/rectangle1"
             android:drawableRight="@drawable/checkbox"
-            android:text="Carefree"
+            android:text="Care free"
             android:textSize="20sp" />
         <CheckBox
             android:layout_width="match_parent"

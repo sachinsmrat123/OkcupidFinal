@@ -142,7 +142,10 @@
                     android:src="@drawable/girlsix"/>
             </LinearLayout>
         </HorizontalScrollView>
+
     </LinearLayout>
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

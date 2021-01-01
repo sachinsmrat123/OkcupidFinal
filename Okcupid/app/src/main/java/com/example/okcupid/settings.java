@@ -5,19 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
-public class Q5 extends AppCompatActivity {
-private Button mBtnQ5;
+public class settings extends AppCompatActivity {
+private ImageButton mbtnsettings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q5);
-        mBtnQ5=findViewById(R.id.btnquestion5);
-        mBtnQ5.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_settings);
+        mbtnsettings=findViewById(R.id.imgbtnsettings);
+        mbtnsettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Q5.this,HomePage.class);
+                Intent intent=new Intent(settings.this,HomePage.class);
                 startActivity(intent);
             }
         });

@@ -181,5 +181,60 @@
         <item>40</item>
     </string-array>
 
+    <style name="first_cardview1">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">@dimen/dp_100</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="cardCornerRadius">250dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
 
+    <style name="second_cardview1">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="cardCornerRadius">250dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Image_view2">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Image_view1">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginStart">@dimen/dp_20</item>
+    </style>
+
+    <style name="first_cardview">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="cardCornerRadius">150dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="second_cardview">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="cardCornerRadius">150dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Image_view">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
 </resources>

@@ -17,15 +17,15 @@ public class password extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_password);
         mbtbSingUp = findViewById(R.id.btnsignup);
-        EditPassword= findViewById(R.id.etemailid);
+        EditPassword = findViewById(R.id.etemailid);
 
 
         mbtbSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                     Intent intent = new Intent(password.this, Set_up.class);
                     startActivity(intent);
-
 
 
 
@@ -36,5 +36,18 @@ public class password extends AppCompatActivity {
     public void previous(View view) {
         startActivity(new Intent(password.this, email.class));
     }
+//    private boolean isCredValid() {
+//        boolean isDataValid = true;
+//        if (EditPassword.getText().toString().length() > 6) {
+//            EditPassword.setError("Password length is less than 6 characters");
+//            isDataValid = false;
+//        }
+//
+//        return isDataValid;
+//
+//
+//    }
 
-    }
+
+
+}

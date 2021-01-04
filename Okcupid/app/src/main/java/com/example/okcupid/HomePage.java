@@ -23,7 +23,7 @@ private ImageButton mbtnDoubleTake;
         mbtnDoubleTake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomePage.this,doubletake.class);
+                Intent intent=new Intent(HomePage.this, doubletake.class);
                 startActivity(intent);
             }
         });
